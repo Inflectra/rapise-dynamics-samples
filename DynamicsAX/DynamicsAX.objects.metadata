@@ -1,0 +1,1985 @@
+{
+	"TabControl": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoSelectTab",
+				"signature": "tabName"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "SelectedTab",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "SelectedIndex",
+				"setsign": "index",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ItemsCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": [
+			"General ledger",
+			"Retail essentials"
+		],
+		"window_text": "regex:.Microsoft Dynamics AX.*",
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_class",
+		"object_class": "Tab",
+		"version": 0,
+		"object_type": "UIATabControl",
+		"object_flavor": "TabControl",
+		"object_name": "TabControl",
+		"ignore_object_name": true,
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "navPaneTable/Pane/Tab"
+	},
+	"File": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoMenu",
+				"signature": "/**String*/ path, /**String*/ sep"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": [
+			"File"
+		],
+		"window_text": "regex:.Microsoft Dynamics AX.*",
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_class",
+		"object_class": "MenuBar",
+		"version": 0,
+		"object_type": "DynamicsAXMenu",
+		"object_flavor": "Menu",
+		"object_name": "File",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "Pane/MiddleRow/Jewel/File"
+	},
+	"Tree": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoClickNode",
+				"signature": "path, separator, pathType"
+			},
+			{
+				"name": "DoExpand",
+				"signature": "path, separator, pathType"
+			},
+			{
+				"name": "DoCollapse",
+				"signature": "path, separator, pathType"
+			},
+			{
+				"name": "DoSelectItem",
+				"signature": "/**string*/value"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Selected",
+				"setsign": "path, separator, pathType",
+				"getsign": "path, separator, pathType",
+				"readonly": false
+			},
+			{
+				"name": "Checked",
+				"setsign": "/**string*/value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Expanded",
+				"setsign": "path, separator, pathType",
+				"getsign": "path, separator, pathType",
+				"readonly": false
+			},
+			{
+				"name": "NodeText",
+				"setsign": "/**string*/value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "/**string*/value",
+				"getsign": "path, separator, pathType",
+				"readonly": false
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "path, index, separator, pathType",
+				"readonly": true
+			}
+		],
+		"items": [
+			"",
+			"Favorites",
+			"Favorites;My favorites",
+			"General ledger",
+			"General ledger;Area page",
+			"General ledger;Common",
+			"General ledger;Journals",
+			"General ledger;Inquiries",
+			"General ledger;Reports",
+			"General ledger;Periodic",
+			"General ledger;Setup",
+			"General ledger;Setup;General ledger parameters",
+			"General ledger;Setup;General ledger workflows",
+			"General ledger;Setup;Ledger",
+			"General ledger;Setup;Ledger reasons",
+			"General ledger;Setup;Fiscal calendars",
+			"General ledger;Setup;Currency",
+			"General ledger;Setup;Currency;Currencies",
+			"General ledger;Setup;Currency;Exchange rate types",
+			"General ledger;Setup;Currency;Currency exchange rates",
+			"General ledger;Setup;Currency;Currency revaluation accounts",
+			"General ledger;Setup;Currency;Denomination currencies",
+			"General ledger;Setup;Currency;Configure exchange rate providers",
+			"General ledger;Setup;Chart of accounts",
+			"General ledger;Setup;Financial dimensions",
+			"General ledger;Setup;Sales tax",
+			"General ledger;Setup;Withholding tax",
+			"General ledger;Setup;Periods",
+			"General ledger;Setup;Journals",
+			"General ledger;Setup;Posting",
+			"General ledger;Setup;Organization",
+			"General ledger;Setup;Fund"
+		],
+		"window_text": "regex:.Microsoft Dynamics AX.*",
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIATree",
+		"object_flavor": "Tree",
+		"object_name": "Tree",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "navPaneTable/Pane/Tab/General ledger/Tree"
+	},
+	"Grid": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoClickCell",
+				"signature": "/**Number*/ row, /**Number*/ col, /**String*/ clickType, /**Number*/ xOffset, /**Number*/ yOffset"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ColumnCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ColumnName",
+				"setsign": "",
+				"getsign": "/**Number*/columnIndex",
+				"readonly": true
+			},
+			{
+				"name": "RowCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Cell",
+				"setsign": "",
+				"getsign": "/**Number*/row, /**Number*/col",
+				"readonly": true
+			},
+			{
+				"name": "ColumnValues",
+				"setsign": "",
+				"getsign": "/**Number*/ col,/**Nnumber*/ maxCount",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "?Currencies? (??1?)?",
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "DynamicsAXTable",
+		"object_flavor": "Table",
+		"object_name": "Grid",
+		"window_name": "?Currencies? (??1?)?",
+		"location": "Currencies (1)/Currency/Pane/Pane/Grid"
+	},
+	"Name": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoSetText",
+				"signature": "/**string*/val"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "/**string|boolean*/value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "?Currencies? (??1?)?",
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_class",
+		"object_class": "Edit",
+		"version": 0,
+		"object_type": "DynamicsAXTextBox",
+		"object_flavor": "Text",
+		"object_name": "Name",
+		"window_name": "?Currencies? (??1?)?",
+		"location": "Currencies (1)/Currency/Pane/Pane[2]/Pane/Name"
+	},
+	"Close": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ToggleState",
+				"setsign": "check",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "?Currencies? (??1?)?",
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Close",
+		"window_name": "?Currencies? (??1?)?",
+		"location": "Custom/closeItem/CloseButton"
+	},
+	"Page_down": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ToggleState",
+				"setsign": "check",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "?Currencies? (??1?)?",
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Page down",
+		"window_name": "?Currencies? (??1?)?",
+		"location": "NonClientVerticalScrollBar/DownPageButton"
+	},
+	"Page_up": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ToggleState",
+				"setsign": "check",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "?Currencies? (??1?)?",
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Page up",
+		"window_name": "?Currencies? (??1?)?",
+		"location": "NonClientVerticalScrollBar/UpPageButton"
+	},
+	"AddressBarContainer": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoSetText",
+				"signature": "/**string*/val"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "/**string|boolean*/value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "regex:.Microsoft Dynamics AX.*",
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_class",
+		"object_class": "Pane",
+		"version": 0,
+		"object_type": "DynamicsAXAddressBar",
+		"object_flavor": "Edit",
+		"object_name": "AddressBarContainer",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "Pane/TopRow/AddressBarContainer"
+	},
+	"Grid1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": "x, y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**Number*/x, /**Number*/y"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": ""
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": ""
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**Number*/x,/**Number*/y"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**String*/ path, /**Number*/left, /**Number*/top"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoClickCell",
+				"signature": "/**Number*/ row, /**Number*/ col, /**String*/ clickType, /**Number*/ xOffset, /**Number*/ yOffset"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ColumnCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ColumnName",
+				"setsign": "",
+				"getsign": "/**Number*/columnIndex",
+				"readonly": true
+			},
+			{
+				"name": "RowCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Cell",
+				"setsign": "",
+				"getsign": "/**Number*/row, /**Number*/col",
+				"readonly": true
+			},
+			{
+				"name": "ColumnValues",
+				"setsign": "",
+				"getsign": "/**Number*/ col,/**Nnumber*/ maxCount",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "regex:.Microsoft Dynamics AX.*",
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "DynamicsAXTable",
+		"object_flavor": "Table",
+		"object_name": "Grid",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "Main accounts - No Record/MainAccountListPage/Grid"
+	}
+}
