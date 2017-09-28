@@ -2,11 +2,15 @@
 Sample tests for Dynamics AX and Dynamics NAV desktop applications.
 
 ## Dynamics AX
+- AxCreateNewCustomerRVL
+
+[![Creating New Customer in Dynamics AX](http://img.youtube.com/vi/0NM7Bpj6Cc8/0.jpg)](https://youtu.be/0NM7Bpj6Cc8 "Creating New Customer in Dynamics AX")
+
 - DynamicsAX
 
 [![Rapise Testing Dynamics AX](http://img.youtube.com/vi/Gi0YSD-nNZ8/0.jpg)](https://youtu.be/Gi0YSD-nNZ8?list=PL1GncVUgF5nt2ha_RufRAqf40qg9O4vC3 "Rapise Testing  Dynamics AX")
 
-*Click on the image to view the video pf script playback*
+*Click on the image to view the video of script playback*
 
 ## Dynamics NAV
 - DynamicsNAV
