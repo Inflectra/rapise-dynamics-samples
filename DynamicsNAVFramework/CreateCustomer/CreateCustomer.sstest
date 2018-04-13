@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="18" t="">
+  <ScriptPath>CreateCustomer.js</ScriptPath>
+  <UserFunctionsPath>..\Master TC210.user.js</UserFunctionsPath>
+  <ObjectsPath>CreateCustomer.objects.js</ObjectsPath>
+  <ReportPath>CreateCustomer.trp</ReportPath>
+  <CommandInterval>100</CommandInterval>
+  <IterationsCount>1</IterationsCount>
+  <StopOnError>false</StopOnError>
+  <CacheObjects>false</CacheObjects>
+  <ObjectLookupAttempts>5</ObjectLookupAttempts>
+  <ObjectLookupAttemptInterval>300</ObjectLookupAttemptInterval>
+  <ShowReport>true</ShowReport>
+  <BeautifySavedObjects>true</BeautifySavedObjects>
+  <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
+  <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
+  <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
+  <SaveScreenshotObjectOnly>false</SaveScreenshotObjectOnly>
+  <SaveScreenshotsCaptureCursor>true</SaveScreenshotsCaptureCursor>
+  <CommandLine />
+  <EntryPoint>Test</EntryPoint>
+  <WorkDir>..\.</WorkDir>
+  <TestFiles>
+    <Name>Test</Name>
+    <IsFilterGroup>false</IsFilterGroup>
+    <FilterWildcard>*.*</FilterWildcard>
+    <FilterPath />
+    <Groups>
+      <TestGroup>
+        <Name>Reports</Name>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.trp</FilterWildcard>
+        <FilterPath>Reports</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+      <TestGroup>
+        <Name>Scripts</Name>
+        <IsFilterGroup>false</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath />
+        <Groups />
+        <TestFiles>
+          <TestFile>
+            <Path>CreateCustomer.js</Path>
+          </TestFile>
+          <TestFile>
+            <Path>CreateCustomer.objects.js</Path>
+          </TestFile>
+          <TestFile>
+            <Path>..\Master TC210.user.js</Path>
+          </TestFile>
+        </TestFiles>
+      </TestGroup>
+    </Groups>
+    <TestFiles />
+  </TestFiles>
+  <CustomStrings />
+  <TestParams>
+    <TestParam name="Record Title" variable="g_rWnd" defaultValue="regex:.*Microsoft Dynamics NAV" description="Application Title to Record" output="false" ask="false">
+      <PossibleValues>
+        <string>regex:.*Microsoft Dynamics NAV</string>
+      </PossibleValues>
+    </TestParam>
+  </TestParams>
+  <Methodology>Basic</Methodology>
+  <MethodologyOptions>
+    <ArrayOfObjectParam />
+  </MethodologyOptions>
+</Test>
