@@ -40,3 +40,7 @@ Included tests:
 - BasicSalesOrder test creates a new Sales Order and posts it
 - CreateCustomer creates new customer in the system
 - DeleteCustomer deletes customer created by CreateCustomer
+
+### DynamicsNAVWebClientFramework
+
+Same as `DynamicsNAVFramework` but for Web Client.
