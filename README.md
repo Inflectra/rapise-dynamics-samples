@@ -15,6 +15,12 @@ Sample tests for Dynamics AX and Dynamics NAV desktop applications.
 
 *Click on the image to view the video of script playback*
 
+### RPADynamicsAX
+
+Rapise imports data from an Excel file into Dynamics AX instance. The automation script is smart. It creates new vendor, category and item only if there is no such record in the system. 
+
+[See more details in KB378](https://www.inflectra.com/Support/KnowledgeBase/KB378.aspx)
+
 ## Dynamics NAV
 
 ### DynamicsNAV
