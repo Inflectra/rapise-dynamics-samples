@@ -9,6 +9,8 @@ Sample tests for Dynamics AX and Dynamics NAV desktop applications.
 
 *Click on the image to view the video of script recording and playback*
 
+[See more details in KB391](https://www.inflectra.com/Support/KnowledgeBase/KB391.aspx)
+
 ### AxCreateNewCustomerRVL
 
 [![Creating New Customer in Dynamics AX](http://img.youtube.com/vi/0NM7Bpj6Cc8/0.jpg)](https://youtu.be/0NM7Bpj6Cc8 "Creating New Customer in Dynamics AX")
