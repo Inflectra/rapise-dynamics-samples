@@ -3,6 +3,12 @@ Sample tests for Dynamics AX and Dynamics NAV desktop applications.
 
 ## Dynamics AX
 
+### AxCreatePO
+
+[![Creating a Purchase Order in Dynamics AX](http://img.youtube.com/vi/sa1Qq3h87Ww/0.jpg)](https://youtu.be/sa1Qq3h87Ww "Creating a Purchase Order in Dynamics AX")
+
+*Click on the image to view the video of script recording and playback*
+
 ### AxCreateNewCustomerRVL
 
 [![Creating New Customer in Dynamics AX](http://img.youtube.com/vi/0NM7Bpj6Cc8/0.jpg)](https://youtu.be/0NM7Bpj6Cc8 "Creating New Customer in Dynamics AX")
