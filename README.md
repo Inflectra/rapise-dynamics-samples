@@ -29,6 +29,10 @@ Rapise imports data from an Excel file into Dynamics AX instance. The automation
 
 [See more details in KB378](https://www.inflectra.com/Support/KnowledgeBase/KB378.aspx)
 
+### DynamicsAXSecurityTestingFramework
+
+A framework for testing security configuration in Dynamics AX.
+
 ## Dynamics NAV
 
 ### DynamicsNAV

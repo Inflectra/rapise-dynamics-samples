@@ -1,0 +1,2184 @@
+{
+	"UserTable": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoClickCell",
+				"signature": "/**number|string*/ row, /**string|number*/ col, /**string*/ clickType, /**number*/ xOffset, /**number*/ yOffset"
+			},
+			{
+				"name": "DoClickColumn",
+				"signature": "/**number|string*/ col, /**string*/ clickType, /**number*/ xOffset, /**number*/ yOffset"
+			},
+			{
+				"name": "DoScroll",
+				"signature": "/**number*/ horizontalPercent, /**number*/ verticalPercent"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ColumnCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ColumnName",
+				"setsign": "",
+				"getsign": "/**number*/ columnIndex",
+				"readonly": true
+			},
+			{
+				"name": "ColumnIndex",
+				"setsign": "",
+				"getsign": "/**string*/ columnName",
+				"readonly": true
+			},
+			{
+				"name": "RowCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Cell",
+				"setsign": "",
+				"getsign": "/**number|string*/ row, /**string|number*/ col",
+				"readonly": true
+			},
+			{
+				"name": "CellObject",
+				"setsign": "",
+				"getsign": "/**number|string*/ row, /**string|number*/ col",
+				"readonly": true
+			},
+			{
+				"name": "ColumnValues",
+				"setsign": "",
+				"getsign": "/**number*/ columnIndex,/**number*/ maxCount",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "DynamicsAXTable",
+		"object_flavor": "Table",
+		"object_name": "Grid",
+		"object_library": "DynamicsAX",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "regex:Users.*/SysUserInfoPage/Grid"
+	},
+	"RolesForUser": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoClickCell",
+				"signature": "/**number|string*/ row, /**string|number*/ col, /**string*/ clickType, /**number*/ xOffset, /**number*/ yOffset"
+			},
+			{
+				"name": "DoClickColumn",
+				"signature": "/**number|string*/ col, /**string*/ clickType, /**number*/ xOffset, /**number*/ yOffset"
+			},
+			{
+				"name": "DoScroll",
+				"signature": "/**number*/ horizontalPercent, /**number*/ verticalPercent"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ColumnCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ColumnName",
+				"setsign": "",
+				"getsign": "/**number*/ columnIndex",
+				"readonly": true
+			},
+			{
+				"name": "ColumnIndex",
+				"setsign": "",
+				"getsign": "/**string*/ columnName",
+				"readonly": true
+			},
+			{
+				"name": "RowCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Cell",
+				"setsign": "",
+				"getsign": "/**number|string*/ row, /**string|number*/ col",
+				"readonly": true
+			},
+			{
+				"name": "CellObject",
+				"setsign": "",
+				"getsign": "/**number|string*/ row, /**string|number*/ col",
+				"readonly": true
+			},
+			{
+				"name": "ColumnValues",
+				"setsign": "",
+				"getsign": "/**number*/ columnIndex,/**number*/ maxCount",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "DynamicsAXTable",
+		"object_flavor": "Table",
+		"object_name": "rolesForUser",
+		"object_library": "DynamicsAX",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "Roles for selected user/SysSecPartRolesForUser/rolesForUser"
+	},
+	"AddressBar": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoSetText",
+				"signature": "/**string*/val"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Text",
+				"setsign": "/**string*/ value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_class",
+		"object_class": "Pane",
+		"version": 0,
+		"object_type": "DynamicsAXAddressBar",
+		"object_flavor": "Edit",
+		"object_name": "AddressBarContainer",
+		"object_library": "DynamicsAX",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "Pane/TopRow/AddressBarContainer"
+	},
+	"Close": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth",
+				"tag": "UIAObject"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ToggleState",
+				"setsign": "check",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Close",
+		"object_library": "UIAutomation",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "regex:Microsoft Dynamics AX.*/TitleBar/Close"
+	},
+	"_File": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoMenu",
+				"signature": "/**string*/ path, /**string*/ separator"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true,
+				"tag": "UIAObject"
+			}
+		],
+		"items": [
+			"File"
+		],
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_class",
+		"object_class": "MenuBar",
+		"version": 0,
+		"object_type": "DynamicsAXMenu",
+		"object_flavor": "Menu",
+		"object_name": "File",
+		"object_library": "DynamicsAX",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "Pane/MiddleRow/Jewel/File"
+	},
+	"Home": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoSetCheck",
+				"signature": "/**boolean*/bcheck"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Checked",
+				"setsign": "/**boolean*/check",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIACheckBox",
+		"object_flavor": "CheckBox",
+		"object_name": "Home",
+		"object_library": "UIAutomation",
+		"window_name": "regex:.Navigation pane options.*",
+		"location": "regex:Navigation pane options.*/SysNavPaneOptionsDialog/Pane/Display buttons in this order/List/Home"
+	},
+	"Cancel": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name",
+				"tag": "UIAObject"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth",
+				"tag": "UIAObject"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true,
+				"tag": "UIAObject"
+			},
+			{
+				"name": "ToggleState",
+				"setsign": "check",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Cancel",
+		"object_library": "UIAutomation",
+		"window_name": "regex:.Navigation pane options.*",
+		"location": "regex:Navigation pane options.*/SysNavPaneOptionsDialog/Pane[1]/Pane/Cancel"
+	},
+	"NavPaneList": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoClick",
+				"signature": "/**number*/x, /**number*/y"
+			},
+			{
+				"name": "DoLClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoLButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMouseMove",
+				"signature": "/**number*/x, /**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoRDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonDown",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMButtonUp",
+				"signature": "",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoMDClick",
+				"signature": "/**number*/x,/**number*/y",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**string*/ keys",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoAnalogPlay",
+				"signature": "/**string*/ path, /**number*/left, /**number*/top",
+				"tag": "Generic"
+			},
+			{
+				"name": "DoDumpWidget",
+				"signature": "dumpProperties, maxDepth, trimValue, indent, filePath, append, ignoreProps"
+			},
+			{
+				"name": "DoGetWidgetProperty",
+				"signature": "name"
+			},
+			{
+				"name": "DoFindByText",
+				"signature": "textOrRegexp, depth"
+			}
+		],
+		"properties": [
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "WindowText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "State",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false,
+				"tag": "Generic"
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "Bitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "BWBitmap",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true,
+				"tag": "Generic"
+			},
+			{
+				"name": "TypeName",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Parent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "NextSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "PrevSibling",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "IndexInParent",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildrenCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "ind",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_class": "AxTopLevelFrame",
+		"object_text": "",
+		"object_role": "param:object_class",
+		"object_class": "List",
+		"version": 0,
+		"object_type": "UIAObject",
+		"object_flavor": "UIAutomation",
+		"object_name": "UIAutomation",
+		"ignore_object_name": true,
+		"object_library": "UIAutomation",
+		"window_name": "regex:.Navigation pane options.*",
+		"location": "regex:Navigation pane options.*/SysNavPaneOptionsDialog/Pane/Display buttons in this order/List"
+	}
+}
