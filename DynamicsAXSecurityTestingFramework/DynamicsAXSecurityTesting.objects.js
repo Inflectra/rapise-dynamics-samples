@@ -68,29 +68,6 @@ var saved_script_objects={
 		"window_name": "regex:.Microsoft Dynamics AX.*",
 		"location": "Pane/TopRow/AddressBarContainer"
 	},
-	"Close": {
-		"locations": [
-			{
-				"locator_name": "UIAutomation",
-				"location": {
-					"location": "param:location",
-					"window_name": "param:window_name",
-					"window_class": "param:window_class"
-				}
-			}
-		],
-		"window_class": "AxMainFrame",
-		"object_text": "",
-		"object_role": "param:object_flavor",
-		"object_class": "param:object_flavor",
-		"version": 0,
-		"object_type": "UIAButton",
-		"object_flavor": "Button",
-		"object_name": "Close",
-		"object_library": "UIAutomation",
-		"window_name": "regex:.Microsoft Dynamics AX.*",
-		"location": "regex:Microsoft Dynamics AX.*/TitleBar/Close"
-	},
 	"Users": {
 		"locations": [
 			{
@@ -304,5 +281,28 @@ var saved_script_objects={
 		"window_name": "regex:.Microsoft Dynamics AX.*",
 		"location": "Custom/companyItemItem/CompanyButton",
 		"ignore_object_name": true
-	}	
+	},
+	"CloseClient": {
+		"locations": [
+			{
+				"locator_name": "UIAutomation",
+				"location": {
+					"location": "param:location",
+					"window_name": "param:window_name",
+					"window_class": "param:window_class"
+				}
+			}
+		],
+		"window_class": "AxMainFrame",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_flavor",
+		"version": 0,
+		"object_type": "UIAButton",
+		"object_flavor": "Button",
+		"object_name": "Close",
+		"object_library": "UIAutomation",
+		"window_name": "regex:.Microsoft Dynamics AX.*",
+		"location": "regex:Microsoft Dynamics AX.*/TitleBar/Close"
+	}
 };

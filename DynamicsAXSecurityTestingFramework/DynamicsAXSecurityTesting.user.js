@@ -129,7 +129,7 @@ function DynamicsAXCheckRolesForUser(/**string*/ userName)
  */
 function DynamicsAXClose()
 {
-	var closeButton = Global.DoWaitFor("Close", 1);
+	var closeButton = Global.DoWaitFor("CloseClient", 1);
 	if (closeButton)
 	{
 		closeButton.DoClick();
