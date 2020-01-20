@@ -1,0 +1,38 @@
+{
+    "name": "RPA Demo",
+    "agents": [
+        {
+            "id": "pdf_folder_monitor",
+            "description": "Monitors folder for new PDF files",
+            "type": "RpaFolderMonitor",
+            "options": 
+            {
+                "folder": "c:\\Demo\\RPA\\Invoices",
+                "filter": "*.pdf",
+                "events": [
+                    { "name": "created", "command": "c:\\Demo\\RPA\\processinvoice.cmd", "args": "{file_name}" }
+                ]
+            }
+        },
+        {
+            "id": "rpa_queue",
+            "description": "Queue for managing RPA communication",
+            "type": "RpaQueue",
+            "options":
+            {
+            
+            }
+        },
+        {
+            "id": "rpa_email_checker",
+            "description": "Email checker",
+            "type": "RpaTimer",
+            "options":
+            {
+                "command": "c:\\Demo\\RPA\\checkemail.cmd",
+                "args" : "",
+                "interval": 20000
+            }
+        }
+    ]
+}

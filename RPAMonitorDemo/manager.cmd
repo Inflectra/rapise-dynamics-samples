@@ -1,0 +1,1 @@
+start "C:\Program Files (x86)\Inflectra\Rapise\Bin\RPAMonitor.exe" "C:\Demo\RPA\rpa_config.json"
